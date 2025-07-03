@@ -1,4 +1,4 @@
-% Calcula a energia total pela integral da potência instantânea
+% Calcula a energia total de um conjunto de amostras
 function energia = energiaTotal(Pinst, tempo)
-    energia = trapz(tempo, Pinst);
+    energia = tempo * sum(Pinst);
 end
