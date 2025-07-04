@@ -1,4 +1,4 @@
 function temp = processarTemperatura(data)
-    v = (5 / 1024) * data;
-    temp = v / (6.6 * 0.01);
+    v = (5 / 1023) * data;
+    temp = v / (8.6 * 0.01);
 end
